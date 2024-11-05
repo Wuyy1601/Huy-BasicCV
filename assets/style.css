@@ -1,0 +1,222 @@
+.white{
+    background-color: #fff;
+    color: #000 !important;
+}
+.web-container:after, .web-container:before, .web-panel:after, .web-panel:before, .web-row:after, .web-row:before, .web-row-padding:after, .web-row-padding:before, .web-cell-row:before, .web-cell-row:after, .web-clear:after, .web-clear:before, .web-bar:before, .web-bar:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+img{
+    vertical-align: 100%;
+    border-style: none;
+}
+.circle{
+    border-radius: 50%;
+}
+.web-responsive{
+    display: block;
+    overflow-x: auto;
+}
+.web-padding-64{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+html, body {
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+}
+h1{
+    font-size: 36px;
+}
+body{
+    margin: 0;
+}
+.text-left{
+    text-align: left;
+}
+.web-content {
+    margin-left: auto;
+    margin-right: auto;
+}
+.web-half{
+    float: left;
+    width: 49.999%;
+}
+.web-align-center{
+    text-align: center;
+}
+.web-container{
+    padding:0 16px;
+}
+.web-input{
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*,*:before,*:after {
+    box-sizing: inherit
+}
+.web-center{
+    text-align: center;
+}
+/* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+.intro .logo{
+    color: #fff;
+}
+.intro .web-btn
+{
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 16px 16px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.intro .web-btn:hover
+{
+    background-color: #ccc;
+    color: #000;
+}
+.intro{
+    background-color: black;
+}
+.about{
+    background-color: #607d8b;
+}
+.my-img{
+    margin: 16px;
+}
+.about-me{
+    color: #fff;
+}
+.text-about-me{
+    padding: 12px 24px;
+}
+#work{
+    color: #000;
+    background-color: #f1f1f1;
+}
+#work h2 {
+font-size: 30px;
+}
+#work .web-row{
+    line-height: 0;
+}
+#work .note{
+    padding:20px;
+}
+.web-table{
+    width: 100%;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.web-opacity{
+    opacity: 0.6;
+}
+.web-table th:first-child, .web-table td:first-child, .web-table-all th:first-child, .web-table-all td:first-child {
+    padding-left: 16px;
+}
+
+
+.web-table td, .web-table th, .web-table-all td, .web-table-all th {
+    padding: 8px 8px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: top;
+}
+
+#resume{
+    color: #fff;
+    background-color: #3f51b5;
+}
+#resume .web-table{
+    height: 400px;
+}
+.Year{
+    width: 20%;
+}
+.Tittle{
+    width: 35%;
+}
+.Where{
+    width: 45%;
+}
+#swing-by{
+    background-color: #616161;
+    color: #fff;
+}
+#contact{
+    background-color: #009688;
+}
+.web-content .contact{
+    padding: 64px 24px;
+    color:#fff;
+}
+#contact form{
+    background-color: #fff;
+    padding: 32px 16px;
+}
+#contact .section{
+    color: #000;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+#contact .web-button{
+    float:right;
+    padding:8px 16px;
+    color: #fff;
+    background-color: #009688;
+    border: none;
+    padding: 8px 16px;
+    vertical-align: middle;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 15px;
+}
+#contact .web-button:hover{
+    background-color: #ccc;
+    color: #000;
+}
+.contact form::after{
+content: "";
+display: table;
+clear: both;
+}
+.footer{
+    background-color: #000;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    color: #fff;
+    text-align: center;
+}
+.icon{
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+}
+#work img{
+    height: 150px;
+}
